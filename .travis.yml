@@ -1,0 +1,5 @@
+language: c
+compiler:
+  - gcc
+install: sudo apt-get install check
+script: make && make test
